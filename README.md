@@ -1,3 +1,5 @@
+**IMPORTANT**: IppSec already updated his repository to work with the Parrot OS newer version (6.3.2 at this date). Take a look into that!
+
 ** Make sure to pip install ansible, apt has an older copy **
 
 Due to the newer versions of Ansible and Parrot OS, the Playbook couldn't run smoothly. I found two workarounds, one using pipx and the other installing Ansible system-wide. I think that the second workaround is more accurate with the end system that IppSec gets, so that's why I used the second approach instead of installing Ansible using pipx and isolating the app.
